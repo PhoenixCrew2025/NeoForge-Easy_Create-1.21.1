@@ -15,6 +15,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.ECREATE_CORRUPTED_IRON_ORE);
+        blockWithItem(ModBlocks.ECREATE_CORRUPTED_EMERALD_ORE);
+        blockWithItem(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE);
+        blockWithItem(ModBlocks.ECREATE_CORRUPTED_DIAMOND_ORE);
+        blockWithItem(ModBlocks.ECREATE_CORRUPTED_COAL_ORE);
         blockWithItem(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
     }
 

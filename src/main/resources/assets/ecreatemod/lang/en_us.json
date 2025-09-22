@@ -76,12 +76,25 @@
   "item.ecreatemod.modium_god_part": "Allthemodium God Part",
   "item.ecreatemod.ore_god_part": "All Ores God Part",
 
+  "item.ecreatemod.ecreate_king_sword": "Ecreate King Sword",
+  "item.ecreatemod.ecreate_king_pickaxe": "Ecreate King Pickaxe",
+  "item.ecreatemod.ecreate_king_axe": "Ecreate King Axe",
+  "item.ecreatemod.ecreate_king_shovel": "Ecreate King Shovel",
+  "item.ecreatemod.ecreate_king_hoe": "Ecreate King Hoe",
+
+  "block.ecreatemod.ecreate_corrupted_iron_block": "Corrupted Iron Block",
+  "block.ecreatemod.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
+  "block.ecreatemod.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",
+  "block.ecreatemod.ecreate_corrupted_diamond_ore": "Corrupted Diamond Ore",
+  "block.ecreatemod.ecreate_corrupted_emerald_ore": "Corrupted Emerald Ore",
+  "block.ecreatemod.ecreate_corrupted_coal_ore": "Corrupted Coal Ore",
 
   "enchantment.ecreatemod.lightning_striker": "Lightning Striker",
 
   "creativetab.ecreatemod.ecreatemod_disc": "Ecreate Music Disc",
   "creativetab.ecreatemod.ecreatemod_money": "Ecreate Money",
   "creativetab.ecreatemod.ecreatemod_others": "Ecreate Others",
-  "creativetab.ecreatemod.ecreatemod_ores": "Ecreate Ores"
+  "creativetab.ecreatemod.ecreatemod_ores": "Ecreate Ores",
+  "creativetab.ecreatemod.ecreatemod_tools": "Ecreate Tools/Weapons"
 
 }

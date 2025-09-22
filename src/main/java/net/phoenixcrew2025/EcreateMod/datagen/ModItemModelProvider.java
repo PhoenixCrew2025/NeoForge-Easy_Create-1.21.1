@@ -66,5 +66,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MODIUM_GOD_PART.get());
         basicItem(ModItems.CREATE_GOD_PART.get());
         basicItem(ModItems.ORE_GOD_PART.get());
+
+
+        handheldItem(ModItems.ECREATE_KING_SWORD.get());
+        handheldItem(ModItems.ECREATE_KING_AXE.get());
+        handheldItem(ModItems.ECREATE_KING_HOE.get());
+        handheldItem(ModItems.ECREATE_KING_PICKAXE.get());
+        handheldItem(ModItems.ECREATE_KING_SHOVEL.get());
     }
 }

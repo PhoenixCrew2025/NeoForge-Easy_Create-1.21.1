@@ -30,6 +30,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_CORRUPTED_RAW_EMERALD);
                         output.accept(ModItems.ECREATE_CORRUPTED_RAW_GOLD);
                         output.accept(ModItems.ECREATE_CORRUPTED_RAW_IRON);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_COAL_ORE);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_DIAMOND_ORE);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_EMERALD_ORE);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_ORE);
                     }).build());
 
 
@@ -96,6 +101,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
                         output.accept(ModItems.ORE_GOD_PART);
                         output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> ECREATE_TOOLS_TAB = CREATIVE_MODE_TAB.register("ecreate_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ECREATE_KING_SWORD.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_others_tab"))
+                    .title(Component.translatable("creativetab.ecreatemod.ecreatemod_tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.ECREATE_KING_SWORD);
+                        output.accept(ModItems.ECREATE_KING_PICKAXE);
+                        output.accept(ModItems.ECREATE_KING_AXE);
+                        output.accept(ModItems.ECREATE_KING_HOE);
+                        output.accept(ModItems.ECREATE_KING_SHOVEL);
                     }).build());
 
     public static void register(IEventBus eventBus) {

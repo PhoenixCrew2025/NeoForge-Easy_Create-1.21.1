@@ -1,13 +1,12 @@
 package net.phoenixcrew2025.EcreateMod.item;
 
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
+import net.phoenixcrew2025.EcreateMod.item.custom.FuelItem;
 import net.phoenixcrew2025.EcreateMod.sound.ModSounds;
 
 import javax.swing.*;
@@ -105,7 +104,7 @@ public class ModItems {
     public static final DeferredItem<Item> ECREATE_CORRUPTED_EMERALD = ITEMS.register("ecreate_corrupted_emerald",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ECREATE_CORRUPTED_COAL = ITEMS.register("ecreate_corrupted_coal",
-            () -> new Item(new Item.Properties()));
+            () -> new FuelItem(new Item.Properties(), 2400));
 
     public static final DeferredItem<Item> ECREATE_ESSENCE = ITEMS.register("ecreate_essence",
             () -> new Item(new Item.Properties()));
@@ -127,6 +126,28 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ATM_ALLOY_SMITHING_TEMPLATE = ITEMS.register("atm_alloy_smithing_template",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<SwordItem> ECREATE_KING_SWORD = ITEMS.register("ecreate_king_sword",
+            () -> new SwordItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ECREATE, 80000, 300))));
+
+    public static final DeferredItem<PickaxeItem> ECREATE_KING_PICKAXE = ITEMS.register("ecreate_king_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ECREATE, 15000, 300))));
+
+    public static final DeferredItem<ShovelItem> ECREATE_KING_SHOVEL = ITEMS.register("ecreate_king_shovel",
+            () -> new ShovelItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ECREATE, 10000, 300))));
+
+    public static final DeferredItem<AxeItem> ECREATE_KING_AXE = ITEMS.register("ecreate_king_axe",
+            () -> new AxeItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ECREATE, 45000, 300))));
+
+    public static final DeferredItem<HoeItem> ECREATE_KING_HOE = ITEMS.register("ecreate_king_hoe",
+            () -> new HoeItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ECREATE, 5000, 300))));
+
+
 
 
 
