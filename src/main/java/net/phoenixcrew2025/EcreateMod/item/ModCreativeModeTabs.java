@@ -113,6 +113,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_KING_AXE);
                         output.accept(ModItems.ECREATE_KING_HOE);
                         output.accept(ModItems.ECREATE_KING_SHOVEL);
+                        output.accept(ModItems.ECREATE_KING_LEGGINGS);
+                        output.accept(ModItems.ECREATE_KING_CHESTPLATE);
+                        output.accept(ModItems.ECREATE_KING_BOOTS);
+                        output.accept(ModItems.ECREATE_KING_HELMET);
                     }).build());
 
     public static void register(IEventBus eventBus) {

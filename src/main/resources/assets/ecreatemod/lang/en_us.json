@@ -82,6 +82,11 @@
   "item.ecreatemod.ecreate_king_shovel": "Ecreate King Shovel",
   "item.ecreatemod.ecreate_king_hoe": "Ecreate King Hoe",
 
+  "item.ecreatemod.ecreate_king_helmet": "Ecreate King Helmet",
+  "item.ecreatemod.ecreate_king_chestplate": "Ecreate King Chestplate",
+  "item.ecreatemod.ecreate_king_leggings": "Ecreate King Leggings",
+  "item.ecreatemod.ecreate_king_boots": "Ecreate King Boots",
+
   "block.ecreatemod.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.ecreatemod.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.ecreatemod.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",

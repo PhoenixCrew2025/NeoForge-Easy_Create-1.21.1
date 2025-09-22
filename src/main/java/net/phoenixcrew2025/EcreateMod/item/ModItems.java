@@ -148,7 +148,21 @@ public class ModItems {
                     .attributes(HoeItem.createAttributes(ModToolTiers.ECREATE, 5000, 300))));
 
 
+    public static final DeferredItem<ArmorItem> ECREATE_KING_HELMET = ITEMS.register("ecreate_king_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(9000000))));
 
+    public static final DeferredItem<ArmorItem> ECREATE_KING_CHESTPLATE = ITEMS.register("ecreate_king_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(9000000))));
+
+    public static final DeferredItem<ArmorItem> ECREATE_KING_LEGGINGS = ITEMS.register("ecreate_king_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(9000000))));
+
+    public static final DeferredItem<ArmorItem> ECREATE_KING_BOOTS = ITEMS.register("ecreate_king_boots",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(9000000))));
 
 
     public static void register(IEventBus eventBus) {

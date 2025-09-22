@@ -34,5 +34,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.HOES)
                 .add(ModItems.ECREATE_KING_HOE.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ECREATE_KING_BOOTS.get())
+                .add(ModItems.ECREATE_KING_LEGGINGS.get())
+                .add(ModItems.ECREATE_KING_CHESTPLATE.get())
+                .add(ModItems.ECREATE_KING_HELMET.get());
+
     }
 }
