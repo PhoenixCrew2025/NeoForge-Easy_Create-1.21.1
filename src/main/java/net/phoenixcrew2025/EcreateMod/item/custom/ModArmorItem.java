@@ -22,7 +22,6 @@ public class ModArmorItem extends ArmorItem {
                             List.of(new MobEffectInstance(MobEffects.REGENERATION, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.SATURATION, 200, 2, false, false),
-                                    new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 5, false, false),

@@ -8,6 +8,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -94,6 +95,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MODIUM_GOD_PART.get());
         basicItem(ModItems.CREATE_GOD_PART.get());
         basicItem(ModItems.ORE_GOD_PART.get());
+        basicItem(ModItems.ECREATE_SEEDS.get());
 
 
         handheldItem(ModItems.ECREATE_KING_SWORD.get());

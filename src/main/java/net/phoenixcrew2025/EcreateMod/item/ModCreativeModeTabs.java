@@ -101,6 +101,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
                         output.accept(ModItems.ORE_GOD_PART);
                         output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
+                        output.accept(ModItems.ECREATE_SEEDS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_TOOLS_TAB = CREATIVE_MODE_TAB.register("ecreate_tools_tab",

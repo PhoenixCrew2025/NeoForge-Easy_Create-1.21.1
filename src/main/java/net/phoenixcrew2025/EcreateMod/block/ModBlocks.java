@@ -4,6 +4,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -11,6 +12,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
+import net.phoenixcrew2025.EcreateMod.block.custom.EcreateCropBlock;
 import net.phoenixcrew2025.EcreateMod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -44,6 +46,17 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ECREATE_CORRUPTED_COAL_ORE = registerBlock("ecreate_corrupted_coal_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ECREATE_CROP = BLOCKS.register("ecreate_crop",
+            () -> new EcreateCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
+
+
+
+
+
+
+
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

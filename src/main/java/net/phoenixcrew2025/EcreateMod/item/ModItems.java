@@ -6,6 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
+import net.phoenixcrew2025.EcreateMod.block.ModBlocks;
 import net.phoenixcrew2025.EcreateMod.item.custom.FuelItem;
 import net.phoenixcrew2025.EcreateMod.item.custom.ModArmorItem;
 import net.phoenixcrew2025.EcreateMod.sound.ModSounds;
@@ -164,6 +165,9 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> ECREATE_KING_BOOTS = ITEMS.register("ecreate_king_boots",
             () -> new ArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(9000000))));
+
+    public static final DeferredItem<Item> ECREATE_SEEDS = ITEMS.register("ecreate_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.ECREATE_CROP.get(), new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
