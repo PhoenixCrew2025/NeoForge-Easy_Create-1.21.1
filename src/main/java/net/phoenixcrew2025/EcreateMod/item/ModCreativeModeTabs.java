@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
+import net.phoenixcrew2025.EcreateMod.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -94,6 +95,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLOOD_GOD_PART);
                         output.accept(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
                         output.accept(ModItems.ORE_GOD_PART);
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

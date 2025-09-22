@@ -1,5 +1,6 @@
 package net.phoenixcrew2025.EcreateMod;
 
+import net.phoenixcrew2025.EcreateMod.block.ModBlocks;
 import net.phoenixcrew2025.EcreateMod.enchantment.ModEnchantmentEffects;
 import net.phoenixcrew2025.EcreateMod.item.ModCreativeModeTabs;
 import net.phoenixcrew2025.EcreateMod.item.ModItems;
@@ -43,13 +44,15 @@ public class EcreateMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
 
         ModEnchantmentEffects.register(modEventBus);
+
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
