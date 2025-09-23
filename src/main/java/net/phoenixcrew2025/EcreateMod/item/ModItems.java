@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
 import net.phoenixcrew2025.EcreateMod.block.ModBlocks;
 import net.phoenixcrew2025.EcreateMod.item.custom.FuelItem;
+import net.phoenixcrew2025.EcreateMod.item.custom.HammerItem;
 import net.phoenixcrew2025.EcreateMod.item.custom.ModArmorItem;
 import net.phoenixcrew2025.EcreateMod.sound.ModSounds;
 
@@ -150,6 +151,11 @@ public class ModItems {
                     .attributes(HoeItem.createAttributes(ModToolTiers.ECREATE, 5000, 300))));
 
 
+    public static final DeferredItem<HammerItem> ECREATE_KING_HAMMER = ITEMS.register("ecreate_king_hammer",
+            () -> new HammerItem(ModToolTiers.ECREATE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ECREATE, 18000, 300))));
+
+
     public static final DeferredItem<ArmorItem> ECREATE_KING_HELMET = ITEMS.register("ecreate_king_helmet",
             () -> new ModArmorItem(ModArmorMaterials.ECREATE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(9000000))));
@@ -168,6 +174,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> ECREATE_SEEDS = ITEMS.register("ecreate_seeds",
             () -> new ItemNameBlockItem(ModBlocks.ECREATE_CROP.get(), new Item.Properties()));
+
+
 
 
     public static void register(IEventBus eventBus) {

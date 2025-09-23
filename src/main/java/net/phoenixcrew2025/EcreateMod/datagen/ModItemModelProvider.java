@@ -98,11 +98,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ECREATE_SEEDS.get());
 
 
-        handheldItem(ModItems.ECREATE_KING_SWORD.get());
-        handheldItem(ModItems.ECREATE_KING_AXE.get());
-        handheldItem(ModItems.ECREATE_KING_HOE.get());
-        handheldItem(ModItems.ECREATE_KING_PICKAXE.get());
-        handheldItem(ModItems.ECREATE_KING_SHOVEL.get());
+        handheldItem(ModItems.ECREATE_KING_SWORD);
+        handheldItem(ModItems.ECREATE_KING_AXE);
+        handheldItem(ModItems.ECREATE_KING_HOE);
+        handheldItem(ModItems.ECREATE_KING_PICKAXE);
+        handheldItem(ModItems.ECREATE_KING_SHOVEL);
+        handheldItem(ModItems.ECREATE_KING_HAMMER);
 
         trimmedArmorItem(ModItems.ECREATE_KING_BOOTS);
         trimmedArmorItem(ModItems.ECREATE_KING_CHESTPLATE);

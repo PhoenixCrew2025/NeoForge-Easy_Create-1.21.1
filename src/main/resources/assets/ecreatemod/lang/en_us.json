@@ -81,6 +81,7 @@
   "item.ecreatemod.ecreate_king_axe": "Ecreate King Axe",
   "item.ecreatemod.ecreate_king_shovel": "Ecreate King Shovel",
   "item.ecreatemod.ecreate_king_hoe": "Ecreate King Hoe",
+  "item.ecreatemod.ecreate_king_hammer": "Ecreate King Hammer",
 
   "item.ecreatemod.ecreate_king_helmet": "Ecreate King Helmet",
   "item.ecreatemod.ecreate_king_chestplate": "Ecreate King Chestplate",
@@ -114,7 +115,7 @@
   "entity.minecraft.villager.ecreatemod.ecreator_four": "Ecreator Trader Four",
   "entity.minecraft.villager.ecreatemod.ecreator_five": "Ecreator Trader Five",
 
-  "block.tutorialmod.magic_block": "Magic Block",
+  "block.ecreatemod.magic_block": "Magic Block",
 
   "enchantment.ecreatemod.lightning_striker": "Lightning Striker",
 
