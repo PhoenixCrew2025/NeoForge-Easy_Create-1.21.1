@@ -96,6 +96,12 @@
 
   "block.ecreatemod.ecreate_crop": "Ecreate Crop",
 
+  "tooltip.ecreatemod.iron_ore.tooltip": "§eYou can find this Ore in the §nJungle§r§e Biome",
+  "tooltip.ecreatemod.gold_ore.tooltip": "§eYou can Find this Ore in the §nBadlands§r§e Biome",
+  "tooltip.ecreatemod.diamond_ore.tooltip": "§eYou can find this Ore in the §nSnowy Taiga§r§e Biome",
+  "tooltip.ecreatemod.emerald_ore.tooltip": "§eYou can find this Ore in the §nDark Forest§r§e Biome",
+  "tooltip.ecreatemod.coal_ore.tooltip": "§eYou can find this Ore in the §nDesert§r§e Biome",
+
   "enchantment.ecreatemod.lightning_striker": "Lightning Striker",
 
   "creativetab.ecreatemod.ecreatemod_disc": "Ecreate Music Disc",
