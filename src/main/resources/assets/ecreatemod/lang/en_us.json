@@ -108,6 +108,14 @@
   "tooltip.ecreatemod.emerald_ore.tooltip": "§eYou can find this Ore in the §nDark Forest§r§e Biome",
   "tooltip.ecreatemod.coal_ore.tooltip": "§eYou can find this Ore in the §nDesert§r§e Biome",
 
+  "entity.minecraft.villager.ecreatemod.ecreator_one": "Ecreator Trader One",
+  "entity.minecraft.villager.ecreatemod.ecreator_two": "Ecreator Trader Two",
+  "entity.minecraft.villager.ecreatemod.ecreator_three": "Ecreator Trader Three",
+  "entity.minecraft.villager.ecreatemod.ecreator_four": "Ecreator Trader Four",
+  "entity.minecraft.villager.ecreatemod.ecreator_five": "Ecreator Trader Five",
+
+  "block.tutorialmod.magic_block": "Magic Block",
+
   "enchantment.ecreatemod.lightning_striker": "Lightning Striker",
 
   "creativetab.ecreatemod.ecreatemod_disc": "Ecreate Music Disc",

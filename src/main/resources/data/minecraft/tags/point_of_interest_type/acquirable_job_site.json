@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ecreatemod:trading_one",
+      "required": false
+    },
+    {
+      "id": "ecreatemod:trading_two",
+      "required": false
+    },
+    {
+      "id": "ecreatemod:trading_three",
+      "required": false
+    },
+    {
+      "id": "ecreatemod:trading_four",
+      "required": false
+    },
+    {
+      "id": "ecreatemod:trading_five",
+      "required": false
+    }
+  ]
+}

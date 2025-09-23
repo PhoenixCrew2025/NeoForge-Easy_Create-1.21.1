@@ -17,7 +17,9 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.EcreateMod.EcreateMod;
 import net.phoenixcrew2025.EcreateMod.block.custom.EcreateCropBlock;
+import net.phoenixcrew2025.EcreateMod.block.custom.MagicBlock;
 import net.phoenixcrew2025.EcreateMod.item.ModItems;
+import net.phoenixcrew2025.EcreateMod.sound.ModSounds;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -105,6 +107,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ECREATE_TRADE_FIVE = registerBlock("ecreate_trade_five",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
 
 

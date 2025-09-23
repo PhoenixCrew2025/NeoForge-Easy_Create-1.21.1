@@ -35,6 +35,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ECREATE_TRADE_THREE);
         blockWithItem(ModBlocks.ECREATE_TRADE_TWO);
 
+        blockWithItem(ModBlocks.MAGIC_BLOCK);
+
         makeCrop(((CropBlock) ModBlocks.ECREATE_CROP.get()), "ecreate_crop_stage", "ecreate_crop_stage");
         
     }

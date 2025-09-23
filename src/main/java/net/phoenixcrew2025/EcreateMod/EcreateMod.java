@@ -6,6 +6,7 @@ import net.phoenixcrew2025.EcreateMod.item.ModCreativeModeTabs;
 import net.phoenixcrew2025.EcreateMod.item.ModItems;
 import net.phoenixcrew2025.EcreateMod.loot.ModLootModifiers;
 import net.phoenixcrew2025.EcreateMod.sound.ModSounds;
+import net.phoenixcrew2025.EcreateMod.villager.ModVillagers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -52,6 +53,7 @@ public class EcreateMod {
 
         ModEnchantmentEffects.register(modEventBus);
 
+        ModVillagers.register(modEventBus);
 
 
         // Register the item to a creative tab

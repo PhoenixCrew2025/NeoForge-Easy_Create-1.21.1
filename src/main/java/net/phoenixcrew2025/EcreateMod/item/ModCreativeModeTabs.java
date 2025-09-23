@@ -115,6 +115,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ECREATE_TRADE_THREE);
                         output.accept(ModBlocks.ECREATE_TRADE_FOUR);
                         output.accept(ModBlocks.ECREATE_TRADE_FIVE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 

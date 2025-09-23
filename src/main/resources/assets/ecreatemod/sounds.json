@@ -158,5 +158,35 @@
         "stream": true
       }
     ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.ecreatemod.magic_block_break",
+    "sounds": [
+      "ecreatemod:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.ecreatemod.magic_block_step",
+    "sounds": [
+      "ecreatemod:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.ecreatemod.magic_block_place",
+    "sounds": [
+      "ecreatemod:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.ecreatemod.magic_block_hit",
+    "sounds": [
+      "ecreatemod:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.ecreatemod.magic_block_fall",
+    "sounds": [
+      "ecreatemod:magic_block_fall"
+    ]
   }
 }
