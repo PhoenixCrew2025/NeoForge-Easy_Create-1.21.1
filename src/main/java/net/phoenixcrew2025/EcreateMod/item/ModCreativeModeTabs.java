@@ -104,9 +104,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_SEEDS);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> ECREATE_BLOCKS_OTHERS_TAB = CREATIVE_MODE_TAB.register("ecreate_blocks_others_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ECREATE_TRADE_THREE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_others_tab"))
+                    .title(Component.translatable("creativetab.ecreatemod.ecreatemod_blocks_others"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
+                        output.accept(ModBlocks.ECREATE_TRADE_ONE);
+                        output.accept(ModBlocks.ECREATE_TRADE_TWO);
+                        output.accept(ModBlocks.ECREATE_TRADE_THREE);
+                        output.accept(ModBlocks.ECREATE_TRADE_FOUR);
+                        output.accept(ModBlocks.ECREATE_TRADE_FIVE);
+                    }).build());
+
+
     public static final Supplier<CreativeModeTab> ECREATE_TOOLS_TAB = CREATIVE_MODE_TAB.register("ecreate_tools_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ECREATE_KING_SWORD.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_others_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_blocks_others_tab"))
                     .title(Component.translatable("creativetab.ecreatemod.ecreatemod_tools"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ECREATE_KING_SWORD);

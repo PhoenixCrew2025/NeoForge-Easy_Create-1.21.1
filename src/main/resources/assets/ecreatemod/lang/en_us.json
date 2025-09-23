@@ -94,6 +94,12 @@
   "block.ecreatemod.ecreate_corrupted_emerald_ore": "Corrupted Emerald Ore",
   "block.ecreatemod.ecreate_corrupted_coal_ore": "Corrupted Coal Ore",
 
+  "block.ecreatemod.ecreate_trade_one": "Villager Trade Platform 1",
+  "block.ecreatemod.ecreate_trade_two": "Villager Trade Platform 2",
+  "block.ecreatemod.ecreate_trade_three": "Villager Trade Platform 3",
+  "block.ecreatemod.ecreate_trade_four": "Villager Trade Platform 4",
+  "block.ecreatemod.ecreate_trade_five": "Villager Trade Platform 5",
+
   "block.ecreatemod.ecreate_crop": "Ecreate Crop",
 
   "tooltip.ecreatemod.iron_ore.tooltip": "§eYou can find this Ore in the §nJungle§r§e Biome",
@@ -108,6 +114,7 @@
   "creativetab.ecreatemod.ecreatemod_money": "Ecreate Money",
   "creativetab.ecreatemod.ecreatemod_others": "Ecreate Others",
   "creativetab.ecreatemod.ecreatemod_ores": "Ecreate Ores",
-  "creativetab.ecreatemod.ecreatemod_tools": "Ecreate Tools/Weapons"
+  "creativetab.ecreatemod.ecreatemod_tools": "Ecreate Tools/Weapons",
+  "creativetab.ecreatemod.ecreatemod_blocks_others": "Ecreate Block Others"
 
 }

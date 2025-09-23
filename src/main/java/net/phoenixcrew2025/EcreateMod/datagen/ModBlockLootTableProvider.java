@@ -33,6 +33,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
 
+        dropSelf(ModBlocks.ECREATE_TRADE_ONE.get());
+        dropSelf(ModBlocks.ECREATE_TRADE_TWO.get());
+        dropSelf(ModBlocks.ECREATE_TRADE_THREE.get());
+        dropSelf(ModBlocks.ECREATE_TRADE_FOUR.get());
+        dropSelf(ModBlocks.ECREATE_TRADE_FIVE.get());
+
         add(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get(), ModItems.ECREATE_CORRUPTED_RAW_GOLD.get(), 1, 3));
 

@@ -29,6 +29,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ECREATE_CORRUPTED_COAL_ORE);
         blockWithItem(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
 
+        blockWithItem(ModBlocks.ECREATE_TRADE_ONE);
+        blockWithItem(ModBlocks.ECREATE_TRADE_FIVE);
+        blockWithItem(ModBlocks.ECREATE_TRADE_FOUR);
+        blockWithItem(ModBlocks.ECREATE_TRADE_THREE);
+        blockWithItem(ModBlocks.ECREATE_TRADE_TWO);
+
         makeCrop(((CropBlock) ModBlocks.ECREATE_CROP.get()), "ecreate_crop_stage", "ecreate_crop_stage");
         
     }

@@ -86,6 +86,26 @@ public class ModBlocks {
             () -> new EcreateCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
 
 
+    public static final DeferredBlock<Block> ECREATE_TRADE_ONE = registerBlock("ecreate_trade_one",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ECREATE_TRADE_TWO = registerBlock("ecreate_trade_two",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ECREATE_TRADE_THREE = registerBlock("ecreate_trade_three",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ECREATE_TRADE_FOUR = registerBlock("ecreate_trade_four",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ECREATE_TRADE_FIVE = registerBlock("ecreate_trade_five",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
 
 

@@ -25,10 +25,21 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get())
                 .add(ModBlocks.ECREATE_CORRUPTED_DIAMOND_ORE.get())
                 .add(ModBlocks.ECREATE_CORRUPTED_COAL_ORE.get())
-                .add(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
+                .add(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get())
+                .add(ModBlocks.ECREATE_TRADE_FOUR.get())
+                .add(ModBlocks.ECREATE_TRADE_ONE.get())
+                .add(ModBlocks.ECREATE_TRADE_TWO.get())
+                .add(ModBlocks.ECREATE_TRADE_THREE.get())
+                .add(ModBlocks.ECREATE_TRADE_FIVE.get());
+
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
+                .add(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get())
+                .add(ModBlocks.ECREATE_TRADE_FOUR.get())
+                .add(ModBlocks.ECREATE_TRADE_ONE.get())
+                .add(ModBlocks.ECREATE_TRADE_TWO.get())
+                .add(ModBlocks.ECREATE_TRADE_THREE.get())
+                .add(ModBlocks.ECREATE_TRADE_FIVE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get())
