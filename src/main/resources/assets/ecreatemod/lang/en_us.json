@@ -95,6 +95,17 @@
   "item.ecreatemod.ecreate_corrupted_spider_eye": "Corrupted Spider Eye",
   "item.ecreatemod.ecreate_corrupted_string": "Corrupted String",
 
+  "item.ecreatemod.chromatic_compound": "Chromatic Compound",
+  "item.ecreatemod.durasteel_ingot": "Durasteel Ingot",
+  "item.ecreatemod.fortunite_ingot": "Fortunite Ingot",
+  "item.ecreatemod.industrium_ingot": "Industrium Ingot",
+  "item.ecreatemod.multiplite_ingot": "Multiplite Ingot",
+  "item.ecreatemod.multiplite_tube": "Multiplite Tube",
+  "item.ecreatemod.refined_ingot": "Refined Ingot",
+  "item.ecreatemod.refined_mechanism": "Refined Mechanism",
+  "item.ecreatemod.shadow_mechanism": "Shadow Mechanism",
+  "item.ecreatemod.shadow_steel": "Shadow Steel",
+
   "block.ecreatemod.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.ecreatemod.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.ecreatemod.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",

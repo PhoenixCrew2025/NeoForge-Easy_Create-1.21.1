@@ -104,6 +104,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ECREATE_CORRUPTED_SPIDER_EYE.get());
         basicItem(ModItems.ECREATE_CORRUPTED_STRING.get());
 
+        basicItem(ModItems.SHADOW_MECHANISM.get());
+        basicItem(ModItems.SHADOW_STEEL.get());
+        basicItem(ModItems.REFINED_INGOT.get());
+        basicItem(ModItems.REFINED_MECHANISM.get());
+        basicItem(ModItems.MULTIPLITE_INGOT.get());
+        basicItem(ModItems.MULTIPLITE_TUBE.get());
+        basicItem(ModItems.INDUSTRIUM_INGOT.get());
+        basicItem(ModItems.CHROMATIC_COMPOUND.get());
+        basicItem(ModItems.DURASTEEL_INGOT.get());
+        basicItem(ModItems.FORTUNITE_INGOT.get());
+
 
         handheldItem(ModItems.ECREATE_KING_SWORD);
         handheldItem(ModItems.ECREATE_KING_AXE);

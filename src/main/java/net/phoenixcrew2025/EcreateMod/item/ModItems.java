@@ -196,6 +196,38 @@ public class ModItems {
 
 
 
+    public static final DeferredItem<Item> CHROMATIC_COMPOUND = ITEMS.register("chromatic_compound",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> DURASTEEL_INGOT = ITEMS.register("durasteel_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> FORTUNITE_INGOT = ITEMS.register("fortunite_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> INDUSTRIUM_INGOT = ITEMS.register("industrium_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MULTIPLITE_INGOT = ITEMS.register("multiplite_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MULTIPLITE_TUBE = ITEMS.register("multiplite_tube",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> REFINED_INGOT = ITEMS.register("refined_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> REFINED_MECHANISM = ITEMS.register("refined_mechanism",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> SHADOW_MECHANISM = ITEMS.register("shadow_mechanism",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> SHADOW_STEEL = ITEMS.register("shadow_steel",
+            () -> new Item(new Item.Properties()));
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

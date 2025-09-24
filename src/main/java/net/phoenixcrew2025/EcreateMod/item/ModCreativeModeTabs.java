@@ -94,13 +94,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_SHARD);
                         output.accept(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
                         output.accept(ModItems.ECREATE_SEEDS);
-
                         output.accept(ModItems.ECREATE_CORRUPTED_BONE);
                         output.accept(ModItems.ECREATE_CORRUPTED_ENDER_PEARL);
                         output.accept(ModItems.ECREATE_CORRUPTED_FLESH);
                         output.accept(ModItems.ECREATE_CORRUPTED_GUNPOWDER);
                         output.accept(ModItems.ECREATE_CORRUPTED_SPIDER_EYE);
                         output.accept(ModItems.ECREATE_CORRUPTED_STRING);
+                        output.accept(ModItems.FORTUNITE_INGOT);
+                        output.accept(ModItems.CHROMATIC_COMPOUND);
+                        output.accept(ModItems.DURASTEEL_INGOT);
+                        output.accept(ModItems.INDUSTRIUM_INGOT);
+                        output.accept(ModItems.MULTIPLITE_INGOT);
+                        output.accept(ModItems.MULTIPLITE_TUBE);
+                        output.accept(ModItems.REFINED_INGOT);
+                        output.accept(ModItems.REFINED_MECHANISM);
+                        output.accept(ModItems.SHADOW_MECHANISM);
+                        output.accept(ModItems.SHADOW_STEEL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_BLOCKS_OTHERS_TAB = CREATIVE_MODE_TAB.register("ecreate_blocks_others_tab",
@@ -136,7 +145,7 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_GOD_TAB = CREATIVE_MODE_TAB.register("ecreate_god_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ATM_ALLOY_SMITHING_TEMPLATE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOD_MAIN_PART.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_tools_tab"))
                     .title(Component.translatable("creativetab.ecreatemod.ecreatemod_god"))
                     .displayItems((itemDisplayParameters, output) -> {
