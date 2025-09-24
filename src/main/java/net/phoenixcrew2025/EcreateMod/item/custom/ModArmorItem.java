@@ -25,6 +25,7 @@ public class ModArmorItem extends ArmorItem {
                                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 5, false, false),
+                                    new MobEffectInstance(MobEffects.DIG_SPEED, 200, 5, false, false),
                                     new MobEffectInstance(MobEffects.JUMP, 200, 2, false, false)))
                     .build();
 

@@ -86,22 +86,21 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_money_tab"))
                     .title(Component.translatable("creativetab.ecreatemod.ecreatemod_others"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.MEK_GOD_PART);
-                        output.accept(ModItems.MODIUM_GOD_PART);
-                        output.accept(ModItems.GOD_MAIN_PART);
-                        output.accept(ModItems.FOOD_GOD_PART);
                         output.accept(ModItems.HEART_OF_ECREATE);
                         output.accept(ModItems.ECREATE_CRYSTAL);
                         output.accept(ModItems.ECREATE_QUARTS);
                         output.accept(ModItems.ECREATE_ESSENCE);
                         output.accept(ModItems.ECREATE_ROD);
                         output.accept(ModItems.ECREATE_SHARD);
-                        output.accept(ModItems.CREATE_GOD_PART);
-                        output.accept(ModItems.BLOOD_GOD_PART);
                         output.accept(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
-                        output.accept(ModItems.ORE_GOD_PART);
-                        output.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK);
                         output.accept(ModItems.ECREATE_SEEDS);
+
+                        output.accept(ModItems.ECREATE_CORRUPTED_BONE);
+                        output.accept(ModItems.ECREATE_CORRUPTED_ENDER_PEARL);
+                        output.accept(ModItems.ECREATE_CORRUPTED_FLESH);
+                        output.accept(ModItems.ECREATE_CORRUPTED_GUNPOWDER);
+                        output.accept(ModItems.ECREATE_CORRUPTED_SPIDER_EYE);
+                        output.accept(ModItems.ECREATE_CORRUPTED_STRING);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_BLOCKS_OTHERS_TAB = CREATIVE_MODE_TAB.register("ecreate_blocks_others_tab",
@@ -134,7 +133,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_KING_CHESTPLATE);
                         output.accept(ModItems.ECREATE_KING_LEGGINGS);
                         output.accept(ModItems.ECREATE_KING_BOOTS);
+                    }).build());
 
+    public static final Supplier<CreativeModeTab> ECREATE_GOD_TAB = CREATIVE_MODE_TAB.register("ecreate_god_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ATM_ALLOY_SMITHING_TEMPLATE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_tools_tab"))
+                    .title(Component.translatable("creativetab.ecreatemod.ecreatemod_god"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.MEK_GOD_PART);
+                        output.accept(ModItems.MODIUM_GOD_PART);
+                        output.accept(ModItems.GOD_MAIN_PART);
+                        output.accept(ModItems.FOOD_GOD_PART);
+                        output.accept(ModItems.CREATE_GOD_PART);
+                        output.accept(ModItems.BLOOD_GOD_PART);
+                        output.accept(ModItems.ORE_GOD_PART);
                     }).build());
 
     public static void register(IEventBus eventBus) {

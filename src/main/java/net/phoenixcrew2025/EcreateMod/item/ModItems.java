@@ -176,6 +176,25 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.ECREATE_CROP.get(), new Item.Properties()));
 
 
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_BONE = ITEMS.register("ecreate_corrupted_bone",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_ENDER_PEARL = ITEMS.register("ecreate_corrupted_ender_pearl",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_FLESH = ITEMS.register("ecreate_corrupted_flesh",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_GUNPOWDER = ITEMS.register("ecreate_corrupted_gunpowder",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_SPIDER_EYE = ITEMS.register("ecreate_corrupted_spider_eye",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ECREATE_CORRUPTED_STRING = ITEMS.register("ecreate_corrupted_string",
+            () -> new Item(new Item.Properties()));
+
+
 
 
     public static void register(IEventBus eventBus) {
