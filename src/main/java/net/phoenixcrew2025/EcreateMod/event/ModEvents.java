@@ -64,8 +64,68 @@ public class ModEvents {
                     new ItemStack(ModItems.ECREATE_SEEDS.get(), 1), 32, 3, 0.05f));
 
             trades.get(2).add((entity, randomSource) -> new MerchantOffer(
-                    new ItemCost(ModItems.TEN_DOLLAR.get(), 2),
+                    new ItemCost(ModItems.FIVE_DOLLAR.get(), 3),
                     new ItemStack(ModBlocks.ECREATE_TRADE_TWO.get(), 1), 2, 3, 0.05f));
+        }
+
+        if(event.getType() == ModVillagers.ECREATOR_TWO.value()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.TEN_DOLLAR.get(), 1),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_BONE.get(), 2), 8000, 3, 0.05f));
+
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.TEN_DOLLAR.get(), 2),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_STRING.get(), 3), 8000, 3, 0.05f));
+
+            trades.get(3).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.FIFTY_DOLLAR.get(), 1),
+                    new ItemStack(ModBlocks.ECREATE_TRADE_THREE.get(), 1), 2, 3, 0.05f));
+        }
+
+        if(event.getType() == ModVillagers.ECREATOR_THREE.value()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.TEN_DOLLAR.get(), 1),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_GUNPOWDER.get(), 2), 8000, 3, 0.05f));
+
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.TEN_DOLLAR.get(), 2),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_FLESH.get(), 3), 8000, 3, 0.05f));
+
+            trades.get(3).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_HUNDRED_DOLLAR.get(), 1),
+                    new ItemStack(ModBlocks.ECREATE_TRADE_FOUR.get(), 1), 2, 3, 0.05f));
+        }
+
+        if(event.getType() == ModVillagers.ECREATOR_FOUR.value()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_THOUSAND_DOLLAR.get(), 1),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_ENDER_PEARL.get(), 3), 8000, 3, 0.05f));
+
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_THOUSAND_DOLLAR.get(), 3),
+                    new ItemStack(ModBlocks.ECREATE_TRADE_FIVE.get(), 1), 2, 3, 0.05f));
+        }
+
+        if(event.getType() == ModVillagers.ECREATOR_FIVE.value()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_HUNDRED_THOUSAND_DOLLARS.get(), 1),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_SPIDER_EYE.get(), 2), 8000, 3, 0.05f));
+
+            trades.get(2).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_HUNDRED_THOUSAND_DOLLARS.get(), 5),
+                    new ItemStack(ModItems.HEART_OF_ECREATE.get(), 3), 8000, 3, 0.05f));
+
+            trades.get(3).add((entity, randomSource) -> new MerchantOffer(
+                    new ItemCost(ModItems.ONE_MILLION_DOLLARS.get(), 1),
+                    new ItemStack(ModItems.ECREATE_CORRUPTED_NETHER_STAR.get(), 1), 8000, 3, 0.05f));
         }
     }
 

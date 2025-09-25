@@ -110,6 +110,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.REFINED_MECHANISM);
                         output.accept(ModItems.SHADOW_MECHANISM);
                         output.accept(ModItems.SHADOW_STEEL);
+                        output.accept(ModItems.ECREATE_CORRUPTED_NETHER_STAR);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_BLOCKS_OTHERS_TAB = CREATIVE_MODE_TAB.register("ecreate_blocks_others_tab",
