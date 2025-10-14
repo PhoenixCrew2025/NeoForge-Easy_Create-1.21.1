@@ -155,7 +155,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GOD_MAIN_PART);
                         output.accept(ModItems.FOOD_GOD_PART);
                         output.accept(ModItems.CREATE_GOD_PART);
-                        output.accept(ModItems.BLOOD_GOD_PART);
                         output.accept(ModItems.ORE_GOD_PART);
                     }).build());
 
@@ -163,3 +162,4 @@ public class ModCreativeModeTabs {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }
+

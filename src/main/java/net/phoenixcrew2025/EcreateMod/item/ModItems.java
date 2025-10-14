@@ -111,8 +111,6 @@ public class ModItems {
 
     public static final DeferredItem<Item> ECREATE_ESSENCE = ITEMS.register("ecreate_essence",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BLOOD_GOD_PART = ITEMS.register("blood_god_part",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CREATE_GOD_PART = ITEMS.register("create_god_part",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ECREATE_CRYSTAL = ITEMS.register("ecreate_crystal",

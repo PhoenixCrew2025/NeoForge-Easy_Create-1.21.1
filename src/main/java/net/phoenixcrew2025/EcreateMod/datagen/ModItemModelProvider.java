@@ -88,7 +88,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ECREATE_SHARD.get());
         basicItem(ModItems.ATM_ALLOY_SMITHING_TEMPLATE.get());
         basicItem(ModItems.GOD_MAIN_PART.get());
-        basicItem(ModItems.BLOOD_GOD_PART.get());
         basicItem(ModItems.FOOD_GOD_PART.get());
         basicItem(ModItems.HEART_OF_ECREATE.get());
         basicItem(ModItems.MEK_GOD_PART.get());
