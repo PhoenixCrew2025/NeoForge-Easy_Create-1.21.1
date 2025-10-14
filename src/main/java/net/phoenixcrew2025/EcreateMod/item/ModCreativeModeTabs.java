@@ -165,7 +165,7 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> ECREATE_CREATE_ITEMS_TAB = CREATIVE_MODE_TAB.register("ecreate_create_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.REFINED_INGOT.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_key_tab"))
                     .title(Component.translatable("creativetab.ecreatemod.ecreatemod_create_items"))
                     .displayItems((itemDisplayParameters, output) -> {
