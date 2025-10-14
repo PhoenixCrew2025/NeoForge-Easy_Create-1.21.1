@@ -75,6 +75,14 @@
   "item.ecreatemod.modium_god_part": "Allthemodium God Part",
   "item.ecreatemod.ore_god_part": "All Ores God Part",
 
+  "item.ecreatemod.red_key": "Ecreate Red Key",
+  "item.ecreatemod.blue_key": "Ecreate Blue Key",
+  "item.ecreatemod.orange_key": "Ecreate Orange Key",
+  "item.ecreatemod.yellow_key": "Ecreate Yellow Key",
+  "item.ecreatemod.purple_key": "Ecreate Purple Key",
+  "item.ecreatemod.green_key": "Ecreate Green Key",
+  "item.ecreatemod.condensed_blood": "Condensed Blood",
+
   "item.ecreatemod.ecreate_king_sword": "Ecreate King Sword",
   "item.ecreatemod.ecreate_king_pickaxe": "Ecreate King Pickaxe",
   "item.ecreatemod.ecreate_king_axe": "Ecreate King Axe",
@@ -142,6 +150,8 @@
   "creativetab.ecreatemod.ecreatemod_ores": "Ecreate Ores",
   "creativetab.ecreatemod.ecreatemod_tools": "Ecreate Tools/Weapons",
   "creativetab.ecreatemod.ecreatemod_blocks_others": "Ecreate Block Others",
+  "creativetab.ecreatemod.ecreatemod_key": "Ecreate Final Key Parts",
+  "creativetab.ecreatemod.ecreatemod_create_items": "Create Chromatic Return Items",
   "creativetab.ecreatemod.ecreatemod_god": "Ecreate God Parts"
 
 }

@@ -226,6 +226,23 @@ public class ModItems {
 
 
 
+    public static final DeferredItem<Item> BLUE_KEY = ITEMS.register("blue_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GREEN_KEY = ITEMS.register("green_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ORANGE_KEY = ITEMS.register("orange_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RED_KEY = ITEMS.register("red_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PURPLE_KEY = ITEMS.register("purple_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> YELLOW_KEY = ITEMS.register("yellow_key",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CONDENSED_BLOOD = ITEMS.register("condensed_blood",
+            () -> new Item(new Item.Properties()));
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

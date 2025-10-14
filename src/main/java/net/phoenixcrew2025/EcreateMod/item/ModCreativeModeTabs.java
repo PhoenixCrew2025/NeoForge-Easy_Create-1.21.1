@@ -100,17 +100,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECREATE_CORRUPTED_GUNPOWDER);
                         output.accept(ModItems.ECREATE_CORRUPTED_SPIDER_EYE);
                         output.accept(ModItems.ECREATE_CORRUPTED_STRING);
-                        output.accept(ModItems.FORTUNITE_INGOT);
-                        output.accept(ModItems.CHROMATIC_COMPOUND);
-                        output.accept(ModItems.DURASTEEL_INGOT);
-                        output.accept(ModItems.INDUSTRIUM_INGOT);
-                        output.accept(ModItems.MULTIPLITE_INGOT);
-                        output.accept(ModItems.MULTIPLITE_TUBE);
-                        output.accept(ModItems.REFINED_INGOT);
-                        output.accept(ModItems.REFINED_MECHANISM);
-                        output.accept(ModItems.SHADOW_MECHANISM);
-                        output.accept(ModItems.SHADOW_STEEL);
                         output.accept(ModItems.ECREATE_CORRUPTED_NETHER_STAR);
+                        output.accept(ModItems.CONDENSED_BLOOD);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ECREATE_BLOCKS_OTHERS_TAB = CREATIVE_MODE_TAB.register("ecreate_blocks_others_tab",
@@ -156,6 +147,38 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FOOD_GOD_PART);
                         output.accept(ModItems.CREATE_GOD_PART);
                         output.accept(ModItems.ORE_GOD_PART);
+                    }).build());
+
+
+    public static final Supplier<CreativeModeTab> ECREATE_KEYS_TAB = CREATIVE_MODE_TAB.register("ecreate_key_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_god_tab"))
+                    .title(Component.translatable("creativetab.ecreatemod.ecreatemod_key"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.RED_KEY);
+                        output.accept(ModItems.BLUE_KEY);
+                        output.accept(ModItems.GREEN_KEY);
+                        output.accept(ModItems.ORANGE_KEY);
+                        output.accept(ModItems.YELLOW_KEY);
+                        output.accept(ModItems.PURPLE_KEY);
+                    }).build());
+
+
+    public static final Supplier<CreativeModeTab> ECREATE_CREATE_ITEMS_TAB = CREATIVE_MODE_TAB.register("ecreate_create_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RED_KEY.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(EcreateMod.MOD_ID, "ecreate_key_tab"))
+                    .title(Component.translatable("creativetab.ecreatemod.ecreatemod_create_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.FORTUNITE_INGOT);
+                        output.accept(ModItems.CHROMATIC_COMPOUND);
+                        output.accept(ModItems.DURASTEEL_INGOT);
+                        output.accept(ModItems.INDUSTRIUM_INGOT);
+                        output.accept(ModItems.MULTIPLITE_INGOT);
+                        output.accept(ModItems.MULTIPLITE_TUBE);
+                        output.accept(ModItems.REFINED_INGOT);
+                        output.accept(ModItems.REFINED_MECHANISM);
+                        output.accept(ModItems.SHADOW_MECHANISM);
+                        output.accept(ModItems.SHADOW_STEEL);
                     }).build());
 
     public static void register(IEventBus eventBus) {

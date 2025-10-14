@@ -96,6 +96,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ORE_GOD_PART.get());
         basicItem(ModItems.ECREATE_SEEDS.get());
 
+        basicItem(ModItems.BLUE_KEY.get());
+        basicItem(ModItems.GREEN_KEY.get());
+        basicItem(ModItems.PURPLE_KEY.get());
+        basicItem(ModItems.ORANGE_KEY.get());
+        basicItem(ModItems.RED_KEY.get());
+        basicItem(ModItems.YELLOW_KEY.get());
+        basicItem(ModItems.CONDENSED_BLOOD.get());
+
         basicItem(ModItems.ECREATE_CORRUPTED_BONE.get());
         basicItem(ModItems.ECREATE_CORRUPTED_ENDER_PEARL.get());
         basicItem(ModItems.ECREATE_CORRUPTED_FLESH.get());
